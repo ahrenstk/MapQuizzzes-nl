@@ -1,4 +1,4 @@
-# MapQuizzzes (MapQuizzzes-de)
+# MapQuizzzes (MapQuizzzes-nl)
 
 **MapQuizzzes** is een flexibel, webgebaseerd framework voor het maken van interactieve, op GPS gebaseerde outdoor puzzeltochten voor de smartphone. Het draait volledig in de browser van de gebruiker, is installeerbaar als Progressive Web App (PWA) en vereist geen registratie of aanmelding voor de gebruiker.
 
