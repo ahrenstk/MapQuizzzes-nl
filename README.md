@@ -102,4 +102,4 @@ Klaar! Je MapQuizzzes-instantie met jouw tours is klaar voor gebruik.
 
 ## 📄 Licentie
 
-Dit project valt onder de **MIT-licentie**. De licentiedetails vind je in het bestand `LICENSE.txt`.
+Dit project valt onder de **MIT-licentie**. De licentiedetails vind je in het bestand `LICENSE`.
