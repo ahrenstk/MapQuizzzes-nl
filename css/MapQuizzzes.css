@@ -1,13 +1,8 @@
 /*! -----------------------------------------------------------------------------
 
-MapQuizzzes - version 2026-09-21
+MIT License
 
-
-License: MIT
-
-The MIT License (MIT)
-
-Copyright (c) 2026 Heinrich Ahrens - heinz.ahrens@web.de
+Copyright (c) 2026 Heinz Ahrens https://github.com/ahrenstk/MapQuizzzes-nl
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -56,53 +51,56 @@ SOFTWARE.
      position: absolute;
      inset: 0;
 }
- #image-container, .overlay-container {
-     display: flex;
+#image-container, .overlay-container, #modalOverlay, .qr-modal-overlay, .extra-modal-overlay {
      position: fixed;
      inset: 0;
+     display: flex;
      align-items: center;
      justify-content: center;
+}
+#image-container, .overlay-container {
      z-index: 20000;
      background: var(--bg-image-url, none) no-repeat center / cover;
 }
- .overlay-container {
-     padding: 10px;
-     box-sizing: border-box;
+#modalOverlay, .qr-modal-overlay, .extra-modal-overlay {
+     display: none;
 }
+
+
  #consentNotice {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
      width: 90%;
      max-width: 450px;
      max-height: 85vh;
-     margin: 0 !important;
+     margin: 0;
      padding: 20px;
      box-sizing: border-box;
      border-radius: 15px;
      text-align: center;
      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-     position: fixed;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
      background: rgba(255, 255, 255, 0.98);
      z-index: 10001;
-     overflow-y: auto;
-     overflow-x: hidden;
+     overflow: auto hidden;
      display: flex;
      flex-direction: column;
      align-items: center;
 }
+
  #consentNotice p, #consentNotice h3, #consentNotice span {
      width: 100%;
-     text-align: center;
-     margin-left: 0 !important;
-     margin-right: 0 !important;
+     margin-inline: 0;
 }
  .consent-header {
      width: 100%;
-     padding-bottom: 0px;
      margin-bottom: 5px;
-     text-align: center;
 }
+
+
+
+
  .consent-title-container {
      position: relative;
      display: inline-block;
@@ -128,19 +126,7 @@ SOFTWARE.
      padding-bottom: 5px;
      margin-bottom: 0;
 }
- .consent-window {
-     width: 90%;
-     max-width: 450px;
-     max-height: 90vh;
-     padding: 30px;
-     box-sizing: border-box;
-     border-radius: 15px;
-     text-align: center;
-     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-     background: #ffffff;
-     overflow-y: auto;
-     font-family: inherit;
-}
+
  .consent-footer-nav {
      display: flex;
      justify-content: center;
@@ -152,21 +138,8 @@ SOFTWARE.
      color: #007bff;
      text-decoration: none;
 }
- .tour-selection-wrapper {
-     width: 100%;
-     text-align: center;
-}
- .tour-selection-title {
-     font-weight: bold;
-     margin-bottom: 2px;
-}
- .tour-buttons-list {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width: 100%;
-     padding: 15px 0;
-}
+
+
  .tour-scroll-box {
      width: 100%;
      min-height: 140px;
@@ -176,8 +149,6 @@ SOFTWARE.
 }
  .tour-select-button {
      display: flex !important;
-     justify-content: center !important;
-     align-items: center !important;
      background: none !important;
      border: none !important;
      padding: 0 !important;
@@ -185,14 +156,9 @@ SOFTWARE.
      cursor: pointer !important;
      width: fit-content !important;
 }
- .tour-select-button-item {
-     width: 100%;
-     margin: 12px 0;
-     background: none;
-     border: none;
-     padding: 0;
-     cursor: pointer;
-}
+
+
+
  #modalOverlay, .qr-modal-overlay, .extra-modal-overlay {
      display: none;
      position: fixed;
@@ -528,9 +494,7 @@ SOFTWARE.
      margin-right: 15px;
      margin-top: 15px;
 }
- .custom-attribution {
-     text-decoration: none;
-}
+
  .qr-modal-content {
      width: 90%;
      max-width: 450px;
@@ -615,37 +579,33 @@ SOFTWARE.
      object-fit: cover;
      cursor: pointer;
 }
- .thumb-badge {
+.thumb-badge, .thumb-title {
      position: absolute;
-     top: 5px;
-     left: 5px;
      background: rgba(0, 0, 0, 0.8);
      color: white;
-     font-size: 13px;
      font-weight: bold;
      padding: 2px 5px;
      border-radius: 5px;
 }
+ .thumb-badge {
+     top: 5px;
+     left: 5px;
+     font-size: 13px;
+}
  .thumb-title {
-     position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     background: rgba(0, 0, 0, 0.8);
-     color: white;
      font-size: 12px;
-     font-weight: bold;
-     padding: 2px 5px;
-     border-radius: 5px;
      text-align: center;
      width: 80%;
      line-height: 1.2;
 }
+
  @media (max-width: 600px) {
      #modalContent {
          padding: 15px;
          width: 90%;
-         max-height: 80vh !important;
     }
      #modalImage {
          max-height: 35vh;
