@@ -1,0 +1,6 @@
+<div class="text-center">
+<p>
+We wensen je veel plezier met de <strong>Bourtange-Quiz</strong>. De tour met in totaal 12 vragen begint bij het informatiecentrum.
+Het fort kan gratis bezocht worden <a href="https://www.bourtange.nl/evenementen" target="_blank">op de meeste dagen van het jaar</a>. Tickets voor de musea zijn ter plaatse verkrijgbaar, maar zijn niet nodig voor de quiz.
+</p>
+</div>
