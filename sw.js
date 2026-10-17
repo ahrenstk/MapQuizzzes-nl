@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mapquizzzes-2026-09-21';
+const CACHE_NAME = 'mapquizzzes-2026-10-17';
 const TILE_CACHE_NAME = 'mapquizzzes-tiles-v1';
 
 const ASSETS_TO_CACHE = [
