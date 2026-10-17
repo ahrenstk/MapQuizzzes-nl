@@ -1,13 +1,9 @@
 <?php
 /* -----------------------------------------------------------------------------
 
-MapQuizzzes Upload - version 2026-08-18
+MIT License
 
-License: MIT
-
-The MIT License (MIT)
-
-Copyright (c) 2026 Heinrich Ahrens - heinz.ahrens@web.de
+Copyright (c) 2026 Heinz Ahrens - https://github.com/ahrenstk/MapQuizzzes-nl
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
