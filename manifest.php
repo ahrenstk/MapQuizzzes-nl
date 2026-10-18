@@ -14,6 +14,7 @@ if (file_exists($configFile)) {
 }
 
 $manifestData = [
+    "id" => $baseFolder,
     "name" => $quizName,
     "short_name" => $quizName,
     "description" => "MapQuizzzes",
