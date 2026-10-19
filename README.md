@@ -56,6 +56,7 @@ Het beste als eerste: **MapQuizzzes is volledig gratis!** Jouw weg naar een eige
     - Tips maar ook vragen kunnen optioneel worden gebruikt.
     - Voor elke locatie wordt een afbeelding gebruikt.
     - Optioneel kunnen bij elke locatie extra modale vensters worden geopend en links naar externe websites worden gebruikt.
+- **Geïntegreerde privacyverklaring:** Toestemming voor het activeren van de twee-klik-methode voor ingebedde kaarten (OpenStreetMap en Esri). 
 - **Aanpasbaar & uitbreidbaar:** Alle tours, puzzels en teksten worden geconfigureerd via eenvoudige `JSON`-bestanden.
 - **Meertaligheid:** Het ontwerp is vanaf de basis meertalig en kan eenvoudig worden uitgebreid met andere talen.
 - **Open Source:** Uitgebracht onder de MIT-licentie.
