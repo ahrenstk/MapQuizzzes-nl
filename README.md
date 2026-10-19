@@ -64,11 +64,11 @@ Het beste als eerste: **MapQuizzzes is volledig gratis!** Jouw weg naar een eige
 
 ## 🛠️ Technische structuur
 
-1. `index.php`: Laadt de hoofdconfiguratie (`MapQuizzzes.json`), herkent de taal en stelt de HTML-basisstructuur en de configuratiegegevens voor de JavaScript-app beschikbaar. Dient ook als API-eindpunt om de gegevens van een geselecteerde tour (`quizdata.json`) te laden.
-2. `MapQuizzzes.js`: Het hart van de applicatie.
-3. Configuratiebestanden (`.json`):
-    - `MapQuizzzes.json`: Globale configuratie (naam, beschikbare tours, UI-vertalingen).
-    - `quizdata.json`: Bevat alle puzzelpunten voor een specifieke tour (coördinaten, vragen, antwoorden, afbeeldingen).
+1. `/index.php`: Hoofdprogramma, dat onder andere de hoofdconfiguratie (`MapQuizzzes.json`) laadt
+2. `/MapQuizzzes.json`: Hoofdconfiguratie voor taal, startpagina en tourselectie (submappen elk inclusief `quizdata.json`)
+3. `/Tourname/quizdata.json`: Configuratievebestand voor een individuele tour met JSON-objecten voor elke locatie met afbeeldingsnaam, coördinaten, vragen, tips, antwoorden, enz.)
+4. `js/MapQuizzzes.js` en `css/MapQuizzzes.css`: JavaScript en CSS van MapQuizzzes
+
 
 ---
 
