@@ -288,8 +288,13 @@ $appConfigJson = json_encode(
 <!--
   ==============================================================
   MapQuizzzes
-  Copyright (c) 2026 Heinz Ahrens (https://ahrens.tk/MapQuizzzes)
-  SPDX-License-Identifier: MIT
+  Copyright (c) 2026 Heinz Ahrens (https://ahrens.tk/MapQuizzzes-nl)
+  License: GNU GPL v3
+  SPDX-License-Identifier: GPL-3.0-or-later
+  ==============================================================
+  Note: This license applies exclusively to the software code.
+  Individual tour data and media assets are excluded.
+  See LICENSE file in repository for the full text.
   ==============================================================
 -->
 <html lang="<?php echo htmlspecialchars($selectedLang); ?>">
