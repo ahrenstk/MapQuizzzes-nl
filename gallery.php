@@ -3,7 +3,7 @@
  * ===========================================================================
  *   MapQuizzzes (MapQuizzzes-nl)
  * 
- *   File:        index.php
+ *   File:        gallery.php
  *   Copyright:   (c) 2026 Heinz Ahrens
  *   Repository:  https://github.com/ahrenstk/MapQuizzzes-nl
  *   License:     GNU General Public License v3 (GPL v3)
