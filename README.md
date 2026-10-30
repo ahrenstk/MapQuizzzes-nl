@@ -110,7 +110,7 @@ Dit project is gelicentieerd onder de **GNU General Public License v3 (GPL v3)**
 Om jou, je school of je bedrijf absolute zekerheid en vrijheid te garanderen bij het maken van tours, hebben we de **softwarecode** strikt gescheiden van je **creatieve inhoud**:
 
 1. **Het software-framework (GPL v3):** 
-   De daadwerkelijke code van MapQuizzzes (PHP, JavaScript, CSS) is open-source. Als jij of je ontwikkelaars het kern-framework aanpassen, verbeteren of uitbreiden, moeten deze code-wijzigingen onder de GPL v3 eveneens open-source blijven.
+   De daadwerkelijke code van MapQuizzzes (PHP, HTML, JavaScript, CSS) is open-source. Als jij of je ontwikkelaars het kern-framework aanpassen, verbeteren of uitbreiden, moeten deze code-wijzigingen onder de GPL v3 eveneens open-source blijven.
 
 2. **Jouw tour-gegevens & media (UITGESLOTEN van de GPL v3):** 
    Al je individuele tour-inhoud, vragen, antwoorden en mediabestanden zijn **uitdrukkelijk uitgesloten van de GPL v3**. Dit geldt in het bijzonder voor:
