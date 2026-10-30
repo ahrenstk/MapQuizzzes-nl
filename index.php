@@ -6,7 +6,7 @@
  *   File:        index.php
  *   Copyright:   (c) 2026 Heinz Ahrens
  *   Repository:  https://github.com/ahrenstk/MapQuizzzes-nl
- *   License:     GNU General Public License v3 (GPL v3) with Special Exception
+ *   License:     GNU General Public License v3 (GPL v3)
  * ===========================================================================
  * 
  *   This program is free software: you can redistribute it and/or modify
