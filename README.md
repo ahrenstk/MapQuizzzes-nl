@@ -59,7 +59,7 @@ Het beste als eerste: **MapQuizzzes is volledig gratis!** Jouw weg naar een eige
 - **Geïntegreerde privacyverklaring:** Toestemming voor het activeren van de twee-klik-methode voor ingebedde kaarten (OpenStreetMap en Esri). 
 - **Aanpasbaar & uitbreidbaar:** Alle tours, puzzels en teksten worden geconfigureerd via eenvoudige `JSON`-bestanden.
 - **Meertaligheid:** Het ontwerp is vanaf de basis meertalig en kan eenvoudig worden uitgebreid met andere talen.
-- **Open Source:** Uitgebracht onder de GPL v3 licentie (met uitzondering voor tour-gegevens).
+- **Open Source:** Uitgebracht onder de GNU Affero General Public License v3 (AGPL v3)  (met uitzondering voor tour-gegevens).
 
 ---
 
@@ -100,25 +100,28 @@ MapQuizzzes is **geen** kant-en-klaar bouwpakketsysteem voor het maken van inter
 Klaar! Je MapQuizzzes-instantie met jouw tours is klaar voor gebruik. 
 
 ---
-
 ## 📄 Licentie & belangrijke uitzondering voor jouw quizgegevens
 
-Dit project is gelicentieerd onder de **GNU General Public License v3 (GPL v3)** – met een speciale uitzondering voor jouw creatieve inhoud.
+Dit project is gelicentieerd onder de **GNU Affero General Public License v3 (AGPL v3)** – met een speciale uitzondering voor jouw creatieve inhoud.
 
 ### ⚠️ Wat betekent dit voor jou en je quizgegevens?
 
 Om jou, je school of je bedrijf absolute zekerheid en vrijheid te garanderen bij het maken van tours, hebben we de **softwarecode** strikt gescheiden van je **creatieve inhoud**:
 
-1. **Het software-framework (GPL v3):** 
-   De daadwerkelijke code van MapQuizzzes (PHP, HTML, JavaScript, CSS) is open-source. Als jij of je ontwikkelaars het kern-framework aanpassen, verbeteren of uitbreiden, moeten deze code-wijzigingen onder de GPL v3 eveneens open-source blijven.
+1. **Het software-framework (AGPL v3):** 
 
-2. **Jouw tour-gegevens & media (UITGESLOTEN van de GPL v3):** 
-   Al je individuele tour-inhoud, vragen, antwoorden en mediabestanden zijn **uitdrukkelijk uitgesloten van de GPL v3**. Dit geldt in het bijzonder voor:
+   De daadwerkelijke code van MapQuizzzes (PHP, HTML, JavaScript, CSS) is open-source. Als jij of je ontwikkelaars het kern-framework aanpassen, verbeteren of uitbreiden, moeten deze code-wijzigingen onder de AGPL v3 eveneens open-source blijven. Omdat MapQuizzzes een webapplicatie is, geldt dit uitdrukkelijk ook wanneer je de gewijzigde versie op een server host en via een netwerk (zoals het internet) aan gebruikers aanbiedt – de gewijzigde broncode moet in dat geval voor die gebruikers beschikbaar worden gesteld.
+
+2. **Jouw tour-gegevens & media (UITGESLOTEN van de AGPL v3):** 
+
+   Al je individuele tour-inhoud, vragen, antwoorden en mediabestanden zijn **uitdrukkelijk uitgesloten van de AGPL v3**. Dit geldt in het bijzonder voor:
+
    * Jouw quiz-configuraties (`quizdata.json`, `MapQuizzzes.json`)
    * Alle geüploade foto's, achtergrondafbeeldingen en audio- of videobestanden
    * Alle geschreven vragen, hints, raadsels en eigen teksten in de modals
 
    **Deze gegevens blijven voor 100% jouw exclusieve intellectuele eigendom.** Je bent NIET verplicht om je quizvragen of afbeeldingen openbaar te maken, te delen of onder een vrije licentie te stellen. Je bent volledig vrij om je voltooide tours te gebruiken voor commerciële evenementen, ze privé te houden of te verkopen.
+
 
 De gedetailleerde licentievoorwaarden zijn te vinden in het [LICENSE](https://github.com/ahrenstk/MapQuizzzes-nl/blob/main/LICENSE)-bestand.
 
