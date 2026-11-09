@@ -12,7 +12,8 @@
 
 ## 🚀 Live-demo
 
-Je kunt de live-demo **[Bourtange-Quiz](https://ahrens.tk/MapQuizzzes-nl)** bekijken. Stel je voor dat je de **[Vesting Bourtange](https://www.bourtange.nl)** bezoekt en het daar ter plaatse speelt. Je kunt ook de **[Münster-Quiz](https://ahrens.tk/muensterquiz-nl)** bekijken en, mocht je eens in het mooie Münster zijn, de quizvragen daar ter plekke beantwoorden.
+Je kunt de live-demo **[Bourtange-Quiz](https://ahrens.tk/MapQuizzzes-nl)** bekijken. Stel je voor dat je de **[Vesting Bourtange](https://www.bourtange.nl)** bezoekt en het daar ter plaatse speelt. Je kunt ook de **[Münster-Quiz](https://ahrens.tk/muensterquiz-nl)** bekijken en deze ter plaatse in het mooie Münster spelen.
+
 
 ---
 
