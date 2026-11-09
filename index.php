@@ -1,25 +1,25 @@
 <?php
-/*
+/**
  * ===========================================================================
- *   MapQuizzzes (MapQuizzzes-nl)
+ *   MapQuizzzes-nl
  * 
  *   File:        index.php
  *   Copyright:   (c) 2026 Heinz Ahrens
- *   Repository:  https://github.com/ahrenstk/MapQuizzzes-nl
- *   License:     GNU General Public License v3 (GPL v3)
+ *   Repository:  https://github.com/ahrenstk/MapQuizzzes
+ *   License:     GNU Affero General Public License v3 (AGPL v3)
  * ===========================================================================
  * 
  *   This program is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
+ *   it under the terms of the GNU Affero General Public License as published by
  *   the Free Software Foundation, either version 3 of the License, or
  *   (at your option) any later version.
  * 
  *   This program is distributed in the hope that it will be useful,
  *   but WITHOUT ANY WARRANTY; without even the implied warranty of
  *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *   GNU General Public License for more details.
+ *   GNU Affero General Public License for more details.
  * 
- *   You should have received a copy of the GNU General Public License
+ *   You should have received a copy of the GNU Affero General Public License
  *   along with this program. If not, see <https://www.gnu.org/licenses/>.
  * 
  *   =========================================================================
@@ -28,12 +28,16 @@
  *   This license applies EXCLUSIVELY to the software framework code.
  *   All individual tour contents, questions, tips, answers, images, and
  *   media loaded by the framework (e.g. from quizdata.json and assets) are
- *   strictly excluded from the GPL v3. They remain the intellectual property
+ *   strictly excluded from the AGPL v3. They remain the intellectual property
  *   of their respective authors and do not have to be open-sourced.
  * 
  * ===========================================================================
  */
 
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+
+
+ */
 
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
@@ -287,10 +291,10 @@ $appConfigJson = json_encode(
 <!doctype html>
 <!--
   ==============================================================
-  MapQuizzzes
+  MapQuizzzes-nl
   Copyright (c) 2026 Heinz Ahrens (https://github.com/ahrenstk/MapQuizzzes-nl)
-  License: GNU GPL v3
-  SPDX-License-Identifier: GPL-3.0-or-later
+  License: GNU AGPL v3
+  SPDX-License-Identifier: AGPL-3.0-or-later
   ==============================================================
   Note: This license applies exclusively to the software code.
   Individual tour data and media assets are excluded.
