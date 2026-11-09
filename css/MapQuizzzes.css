@@ -163,8 +163,15 @@
      cursor: pointer !important;
      width: fit-content !important;
 }
-
-
+.tour-selection-title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 
  #modalOverlay, .qr-modal-overlay, .extra-modal-overlay {
      display: none;
